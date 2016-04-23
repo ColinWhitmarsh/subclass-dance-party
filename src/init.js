@@ -41,12 +41,7 @@ $(document).ready(function() {
       var y = $(window).height() - 200;
       var windowBottom = $(window).height();
       var x = $(window).width();
-
-      // var growStyle = {
-      //   'background-size': '375px',
-      //   'height': '375px',
-      //   'width': '375px'
-      // };
+      
       var growStyle = {
         'background-image': "url('http://i517.photobucket.com/albums/u333/PhotoPun/explosion.gif')",
         'background-size': '375px',
@@ -79,5 +74,5 @@ $(document).ready(function() {
       });  
     }
     
-  }); // keydown
-}); // end
+  }); 
+}); 
